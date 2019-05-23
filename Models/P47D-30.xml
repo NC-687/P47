@@ -438,14 +438,14 @@
         </offsets>
     </model>
 
-        <!--model>
+        <model>
         <path>Aircraft/P47/Models/Cockpit/FlapWarning.xml</path>
         <offsets>
             <x-m>-0.781</x-m>
             <y-m>-0.038</y-m>
             <z-m>0.523</z-m>
        </offsets>
-    </model-->
+    </model>
 
         <model>
         <path>Aircraft/P47/Models/Cockpit/FuelSelector/FuelSelector.xml</path>
