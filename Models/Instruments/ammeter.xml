@@ -2,7 +2,8 @@
 
 <PropertyList>
 
-  <path>ammeter.ac</path>
+  <path>60amps.ac</path>
+
 
   <animation>
     <object-name>fond</object-name>
@@ -29,21 +30,30 @@
     <object-name>face</object-name>
     <object-name>needle</object-name>
     <emission>
-      <factor-prop>systems/electrical/outputs/instrument-lights</factor-prop>
-            <red>0.60</red>
+      <factor-prop>/controls/lighting/cabin-norm</factor-prop>
+            <red>10</red>
             <green>0</green>
-            <blue>0</blue>
+            <blue>8</blue>
     </emission>
   </animation>
   <animation>
 	<type>rotate</type>
 	<object-name>needle</object-name>
-	<property>systems/electrical/volts</property>
-	<interpolation>
+	<property>systems/electrical/amps</property>
+	    <!--interpolation>
+      <entry><ind>  0 </ind><dep>  0 </dep></entry>
+      <entry><ind> 60 </ind><dep> 90 </dep></entry>
+    </interpolation-->
+	<!--interpolation>
 		<entry><ind>-48</ind><dep>  0</dep></entry>
 		<entry><ind>  0</ind><dep>  0</dep></entry>
 		<entry><ind> 24</ind><dep>-45</dep></entry>
 		<entry><ind> 48</ind><dep>-90</dep></entry>
+	</interpolation-->
+		<interpolation>
+		<entry><ind>17</ind><dep>-45</dep></entry>
+		<entry><ind>0</ind><dep>0</dep></entry>
+		<entry><ind>-17</ind><dep>45</dep></entry>
 	</interpolation>
 	<axis>
 		<x>1</x>
@@ -57,13 +67,22 @@
 	</center>
 </animation>
 
-  <!-- animation>
+<animation>
+    <emission>
+      <factor-prop>/controls/lighting/cabin-norm</factor-prop>
+            <red>10</red>
+            <green>0</green>
+            <blue>8</blue>
+    </emission>
+  </animation>
+
+  <animation>
     <type>rotate</type>
     <object-name>needle</object-name>
     <property>systems/electrical/amps</property>
     <interpolation>
-      <entry><ind>0</ind><dep>-60</dep></entry>
-      <entry><ind>0</ind><dep>60 </dep></entry>
+      <entry><ind>  0 </ind><dep>  0 </dep></entry>
+      <entry><ind> 60 </ind><dep> 90 </dep></entry>
     </interpolation>
     <center>
       <x-m>  0.00000 </x-m>
@@ -75,6 +94,6 @@
       <y>  0 </y>
       <z>  0 </z>
     </axis>
-  </animation -->
+  </animation>
 
 </PropertyList>

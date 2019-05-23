@@ -13,7 +13,7 @@
    <spring_coeff unit="LBS/FT">      20000.00 </spring_coeff>
    <damping_coeff unit="LBS/FT/SEC"> 7500.00 </damping_coeff>
  <damping_coeff_rebound unit="LBS/FT/SEC"> 10000 </damping_coeff_rebound>
-   <max_steer unit="DEG"> -30 </max_steer>
+   <max_steer unit="DEG"> 0.0 </max_steer>
    <brake_group>NONE</brake_group>
    <retractable>1</retractable>
   </contact>
@@ -76,7 +76,7 @@
       <spring_coeff unit="LBS/FT"> 10000 </spring_coeff>
       <damping_coeff unit="LBS/FT/SEC"> 2000 </damping_coeff>
       <damping_coeff_rebound unit="LBS/FT/SEC"> 400 </damping_coeff_rebound>
-  </contact> 
+  </contact>
 
  <contact type="STRUCTURE" name="PROPRIGHT">
     <location unit="M">
@@ -89,7 +89,7 @@
       <spring_coeff unit="LBS/FT"> 1000 </spring_coeff>
       <damping_coeff unit="LBS/FT/SEC"> 2000 </damping_coeff>
       <damping_coeff_rebound unit="LBS/FT/SEC"> 400 </damping_coeff_rebound>
- </contact> 
+ </contact>
 
  <contact type="STRUCTURE" name="PROPLEFT">
     <location unit="M">
@@ -102,7 +102,7 @@
       <spring_coeff unit="LBS/FT"> 1000 </spring_coeff>
       <damping_coeff unit="LBS/FT/SEC"> 2000 </damping_coeff>
       <damping_coeff_rebound unit="LBS/FT/SEC"> 400 </damping_coeff_rebound>
- </contact> 
+ </contact>
 
  <contact type="STRUCTURE" name="PROPUPPER">
     <location unit="M">
@@ -115,7 +115,7 @@
       <spring_coeff unit="LBS/FT"> 1000 </spring_coeff>
       <damping_coeff unit="LBS/FT/SEC"> 2000 </damping_coeff>
       <damping_coeff_rebound unit="LBS/FT/SEC"> 400 </damping_coeff_rebound>
- </contact> 
+ </contact>
 
  <contact type="STRUCTURE" name="PROPLOWER">
     <location unit="M">
@@ -128,7 +128,7 @@
       <spring_coeff unit="LBS/FT"> 1000 </spring_coeff>
       <damping_coeff unit="LBS/FT/SEC"> 2000 </damping_coeff>
       <damping_coeff_rebound unit="LBS/FT/SEC"> 400 </damping_coeff_rebound>
- </contact> 
+ </contact>
 
  <contact type="STRUCTURE" name="NOSECONE">
     <location unit="M">
@@ -141,7 +141,7 @@
       <spring_coeff unit="LBS/FT"> 1000 </spring_coeff>
       <damping_coeff unit="LBS/FT/SEC"> 2000 </damping_coeff>
       <damping_coeff_rebound unit="LBS/FT/SEC"> 400 </damping_coeff_rebound>
- </contact> 
+ </contact>
 
  <contact type="STRUCTURE" name="NOSE">
     <location unit="M">
@@ -274,4 +274,4 @@
  </contact>
 
  </ground_reactions>
- 
+
