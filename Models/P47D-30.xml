@@ -462,7 +462,7 @@
         <offsets>
             <x-m>-0.782</x-m>
             <y-m>0.060</y-m>
-            <z-m>0.370</z-m>
+            <z-m>0.365</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
@@ -667,7 +667,7 @@
         <offsets>
             <x-m>-0.782</x-m>
             <y-m>0.060</y-m>
-            <z-m>0.345</z-m>
+            <z-m>0.340</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
@@ -771,6 +771,16 @@
             <x-m>-0.775</x-m>
             <y-m>0.110</y-m>
             <z-m>0.375</z-m>
+            <pitch-deg>0.0</pitch-deg>
+        </offsets>
+    </model>
+
+     <model>
+        <path>Aircraft/P47/Models/Instruments/flow.xml</path>
+        <offsets>
+            <x-m>-0.760</x-m>
+            <y-m>0.187</y-m>
+            <z-m>0.280</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
