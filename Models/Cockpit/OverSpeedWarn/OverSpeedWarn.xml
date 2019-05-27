@@ -9,9 +9,9 @@
 
 
         <emission>
-            <red>10</red>
+            <red>1</red>
             <green>0</green>
-            <blue>8</blue>
+            <blue>0</blue>
             <factor-prop>/controls/lighting/cabin-norm</factor-prop>
         </emission>
     </animation>

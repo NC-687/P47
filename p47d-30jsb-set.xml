@@ -5,7 +5,7 @@
     <sim>
 
         <description>P47D Thunderbolt</description>
-        <author>Syd Adams, Swamp, Nikolai V. Chr., 5H1N0B1, Spectre, pinto, NC-687 3D (liveries)</author>
+        <author>Syd Adams, Swamp, Nikolai V. Chr., pinto, 5H1N0B1, Spectre (liveries)</author>
         <flight-model>jsb</flight-model>
         <aero>P47dJSBsim</aero>
         <fuel-fraction>0.8</fuel-fraction>
@@ -23,11 +23,10 @@
         <sound>
             <path>Aircraft/P47/Sound/p47.xml</path>
         </sound>
-     
-   <instrumentation>
-            <path>Aircraft/P47/Systems/instrumentation.xml</path>
-        </instrumentation>  
-        
+        <instrumentation>
+            <path>Aircraft/P47/instrumentation.xml</path>
+        </instrumentation>
+
        <submodels>
       	     <serviceable type="bool">true</serviceable>
       		<path>Aircraft/P47/Models/Effects/guns/submodels.xml</path>
@@ -150,7 +149,7 @@
         <line> 5:Engage starter ( s ) or flip switch up to start position</line>
         <line>#############</line>
         <line>Takeoff</line>
-        <line>Tailwheel locked with tailwheel lock lever  lever forward</line>
+        <line>Tailwheel locked with tailwheel lock lever forward</line>
         <line>Flaps up</line>
         <line>Ease on throttle</line>
         <line>Manifold pressure 52 inHg </line>
@@ -161,7 +160,7 @@
         <line> To load ammo you must be on the ground with parking brake on</line>
         <line>#############</line>
         <line>Landing</line>
-        <line>Peel off hard base to bleed off speed</line>
+        <line>Peel off hard base to bleed speed</line>
         <line>Flaps 2 notches below 195 mph</line>
         <line>Aproach speed 150 mph</line>
         <line>Touch down speed between 115-120 mph</line>
@@ -198,7 +197,7 @@
                 <cowl-flaps-norm>0</cowl-flaps-norm>
                 <selected type="bool">1</selected>
                 <wastegate type="double">1</wastegate>
-                <boost type="bool">0</boost>
+                <boost type="bool">1</boost>
                 <mag-switch type="double">-1</mag-switch>
                 <primer type="double">0</primer>
                 <energizer type="double">0</energizer>
@@ -219,7 +218,7 @@
         <trigger-rocket type="bool">false</trigger-rocket>
         <trigger type="bool">false</trigger>
            <guns type="bool">0</guns>
-            <ammo type="double">0</ammo><!--350 rounds per gun-->
+            <ammo type="double">0</ammo><!--425 rounds per gun-->
         </armament>
     </controls>
 
@@ -342,7 +341,8 @@
           </binding>
         </mod-up>
       </key>
-<!--  <key n="108">
+
+    <!--key n="108">
      <name>l</name>
      <desc>engage tail wheel steering</desc>
      <binding>
@@ -357,7 +357,7 @@
         <value>0</value>
        </binding>
      </mod-up>
-    </key> -->
+    </key-->
 
 		 </keyboard>
 	 </input>
@@ -371,16 +371,18 @@
     <file>Aircraft/P47/Nasal/liveries.nas</file>
     <file>Aircraft/P47/Nasal/crash-and-stress.nas</file>
     <file>Aircraft/P47/Nasal/terrain.nas</file>
-
     </p47>
+
 	<guns>
 		<file>Aircraft/P47/Nasal/payloads.nas</file>
 	</guns>
 
-<SCR_522C>
+	 <SCR_522C>
       <file>Aircraft/Instruments-3d/SCR-522C/Nasal/SCR-522C.nas</file>
    </SCR_522C>
 </nasal>
+
+
 
 </PropertyList>
 

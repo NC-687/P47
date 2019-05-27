@@ -12,9 +12,9 @@
         <object-name>G.needle2</object-name>
         <object-name>G.needle3</object-name>
         <emission>
-            <red>10</red>
-            <green></green>
-            <blue>8</blue>
+            <red>1</red>
+            <green>1</green>
+            <blue>1</blue>
             <factor-prop>/controls/lighting/cabin-norm</factor-prop>
         </emission>
     </animation>
