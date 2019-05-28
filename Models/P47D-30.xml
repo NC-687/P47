@@ -632,6 +632,16 @@
         </offsets>
     </model>
 
+     <model>
+        <path>Aircraft/P47/Models/Cockpit/swamp.xml</path>
+        <offsets>
+            <x-m>-0.781</x-m>
+            <y-m>-0.210</y-m>
+            <z-m>0.610</z-m>
+            <pitch-deg>0.0</pitch-deg>
+        </offsets>
+    </model>
+
         <model>
         <path>Aircraft/P47/Models/Cockpit/TailWheelLock/TailWheelLock.xml</path>
         <offsets>
