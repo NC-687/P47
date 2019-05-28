@@ -31,7 +31,7 @@
       <object-name>blade4</object-name>
       <object-name>Canopy.frame.1</object-name>
       <object-name>Canopy.frame.2</object-name>
-      <object-name>Canopy</object-name>
+      <!--object-name>CanopyGlass</object-name-->
       <object-name>Ctire</object-name>
       <object-name>AirDuct</object-name>
       <object-name>elevator</object-name>
@@ -538,7 +538,7 @@
         <path>Aircraft/P47/Models/Cockpit/OverSpeedWarn/OverSpeedWarn.xml</path>
         <offsets>
              <x-m>-0.781</x-m>
-            <y-m>0.325</y-m>
+            <y-m>0.335</y-m>
             <z-m>0.565</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
@@ -571,6 +571,16 @@
             <z-m>0.080</z-m>
          </offsets>
        </model>
+
+           <model>
+        <path>Aircraft/P47/Models/Cockpit/RadioCall.xml</path>
+        <offsets>
+            <x-m>-0.781</x-m>
+            <y-m>-0.210</y-m>
+            <z-m>0.630</z-m>
+            <pitch-deg>0.0</pitch-deg>
+        </offsets>
+    </model>
 
     <model>
         <path>Aircraft/P47/Models/Cockpit/Recog Lights Primer/Recog-Lights-Primer.xml</path>
@@ -789,7 +799,7 @@
         <offsets>
             <x-m>-0.735</x-m>
             <y-m>0.030</y-m>
-            <z-m>0.915</z-m>
+            <z-m>0.918</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
@@ -890,7 +900,7 @@
         <offsets>
             <x-m>-0.780</x-m>
             <y-m>-0.045</y-m>
-            <z-m>0.360</z-m>
+            <z-m>0.365</z-m>
             <pitch-deg>0.0</pitch-deg>
         </offsets>
     </model>
