@@ -23,6 +23,7 @@
         <sound>
             <path>Aircraft/P47/Sound/p47.xml</path>
         </sound>
+
         <instrumentation>
             <path>Aircraft/P47/instrumentation.xml</path>
         </instrumentation>

@@ -52,7 +52,7 @@
  <metrics>
    <wingarea  unit="FT2">   300.00 </wingarea>
    <wingspan  unit="FT" >    40.90 </wingspan>
-   <wing_incidence>           1.00 </wing_incidence>
+   <wing_incidence unit="DEG"> 1.00 </wing_incidence>
    <chord     unit="FT" >    9.166 </chord>
    <htailarea unit="FT2">    51.00 </htailarea>
    <htailarm  unit="FT" >    21.66 </htailarm>
@@ -394,7 +394,7 @@
       <spring_coeff unit="LBS/FT"> 1000 </spring_coeff>
       <damping_coeff unit="LBS/FT/SEC"> 2000 </damping_coeff>
       <damping_coeff_rebound unit="LBS/FT/SEC"> 400 </damping_coeff_rebound>
- </contact>https://cdn.shopify.com/s/files/1/0972/7116/products/3-musketeers-bar.png?v=1459346190
+ </contact>
 
   <contact type="STRUCTURE" name="INTAKE">
     <location unit="M">
